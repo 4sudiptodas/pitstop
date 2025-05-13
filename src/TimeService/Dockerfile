@@ -26,7 +26,7 @@ CORECLR_PROFILER={36032161-FFC0-4B61-B559-F6C5D41BAE5A} \
 CORECLR_NEWRELIC_HOME=/usr/local/newrelic-dotnet-agent \
 CORECLR_PROFILER_PATH=/usr/local/newrelic-dotnet-agent/libNewRelicProfiler.so \
 NEW_RELIC_LICENSE_KEY="1ca9e5244778f95450ccb4ed5ab85948FFFFNRAL" \
-NEW_RELIC_APP_NAME="Audit Log Service"
+NEW_RELIC_APP_NAME="Time Service"
 WORKDIR /app
 COPY --from=build-env /app/out .
 
